@@ -1,0 +1,24 @@
+
+1. Pandas:
+Pandas library is used for reading, processing, and analyzing data in Python. It helps load the CSV files containing graph edges and node labels into DataFrames. Pandas provides easy access to tabular data, allowing for efficient data transformation and manipulation. 
+
+2. NetworkX:
+NetworkX library is used for creating, analyzing, and visualizing complex networks or graphs. It is used to construct a graph from the loaded data, where nodes represent entities and edges represent connections between them. It also helps to compute articulation points and biconnected components. NetworkX simplifies graph operations and manage graph structures.
+
+3. Plotly:
+Plotly is a data visualization library that enables the creation of interactive and high-quality graphs. Here, it is used to plot the nodes and edges of the graph, making it possible to visualize the two-level graph. Plotly’s `Scatter` plot is useful for customizing how the nodes and edges appear, allowing for dynamic hover info, labels, and color scales in an interactive manner.
+
+4. Dash:
+Dash is a web application framework used for building interactive, data-driven web applications in Python. It is used to create an interactive web app that renders the two-level graph. Dash integrates with Plotly for visualizations, providing components like `dcc.Graph` and `html.Div` for structuring the app and ensuring a responsive and flexible layout for data exploration.
+
+5. Dash Core Components (dcc):
+The `dcc` module is part of Dash and includes interactive components like graphs, sliders, and dropdowns. In this  `dcc.Graph` is used to embed the Plotly-generated graph into the Dash app. It provides configurations for responsiveness and supports interactive features, allowing users to zoom in and explore the graph directly in their browsers.
+
+6. Dash HTML Components (html):
+`html` is another module from Dash that allows for creating the structure of a web page using HTML tags in Python. It is used to define the overall layout of the Dash app, ensuring that the visualization is displayed in full-screen and centered. The module simplifies web development by providing easy-to-use components like `html.Div` for placing the graph on the page.
+
+
+Contribution - 
+Yashshree Kirad: Contributed to the development of the base code and visualized the graph.
+Yuting Zhou: Explored various approaches to optimize the implementation for faster results.
+Anwar Mynzhanov: Provided valuable insights during discussions and helped to improve the solution.
